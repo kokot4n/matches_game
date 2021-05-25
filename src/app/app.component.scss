@@ -1,0 +1,67 @@
+.match_holder{
+    display: inline-block;
+    width: 30%;
+    height: 375px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.match_tip{
+    width: 5%;
+    height: 100%;
+    background: rgb(61, 43, 15);
+}
+#taken{
+    text-align: center;
+    margin-top: 30px;
+}
+#wrapper{
+    margin: 2%;
+    padding: 50px;
+    background: rgb(83, 168, 248);
+    border-radius: 100px;
+}
+.button:hover{
+    background: rgb(105, 133, 7);
+}
+.matches{
+    list-style-type: none;
+    background: rgb(137, 240, 106);
+    width: 100%;
+    height: 10px;
+    margin-top: 5px;
+}
+.matches:hover{
+    animation-name: anim;
+    animation-duration: 0.5s;
+}
+.button{
+    background: rgb(180, 129, 17);
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    width:fit-content;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@keyframes anim {
+    0% {
+        transform: scale(1);
+      }
+    
+      30% {
+        transform: scale(1.05);
+      }
+    
+      100% {
+        transform: scale(1);
+      }
+}
+*{
+    box-sizing:border-box;
+}
